@@ -8,8 +8,13 @@
   <title>Document</title>
 </head>
 <body>
-  @include('partials.navbar')
-  
-
+  @include('partials.navbar') 
 </body>
+<h1>
+
+
+
+
+  
+</h1>
 </html>

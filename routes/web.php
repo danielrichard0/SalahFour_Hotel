@@ -11,6 +11,7 @@ Route::get('/rooms' ,[RoomController::class, 'index'] );
 Route::get('/login', function() {
     return view('login');
 });
+
 Route::get('/about-us', function()
 {
     return view('about_us');
