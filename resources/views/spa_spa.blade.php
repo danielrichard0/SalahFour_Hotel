@@ -2,47 +2,37 @@
 
 @section('container')
 
-<section class="abotus" id="abotus">
-  <h3 class="fs-1 text-center fw-bold">Hotel Overview</h3>
-  <br>
-  <img src="{{asset('/image/LOGO.png')}}" width="400" height="400" class="rounded mx-auto d-block" alt="LOGO"><br>   
-</section> 
 
 <section class="inti4" id="inti4">
-  <h1 style="margin-top: 15px; margin-left: -15px">  
-    <center>Our Hotel</center> 
-  </h1>
-  <p style="margin-top: 30px">
-    <center>SalahFour Hotel Adalah Hotel Yang Terletak Di Kota Salatiga Dengan Kemewahan Arsitektur Modern Serta Menyajikan Pemandangan Alam Pegunungan</center>   
-  </p> 
-  <p> 
-    <center>SalahFour Hotel Menyediakan Berbagai Macam Fasilitas Yang Dapat Dimanfaatkan Oleh Masyarakat Umum</center>    
-  </p>
-  <p>
-    <center>Mulai Dari Kegitan Penginapan, Pertemuan, Pariwisata Hingga Wedding Party Dapat Dilakukan Di SalahFour Hotel</center>       
-  </p>
-  <br><br>
+<div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col">
+        <img src="{{asset('/image/iconkcil.png')}}" width="40" height="40" class="rounded mx-auto d-block float-end" alt="LOGO">
+      </div>
+      <div class="col">
+        <h1 class="text-center">Spa and Massage</h1>
+      </div>
+      <div class="col">
+        <img src="{{asset('/image/iconkcil.png')}}" width="40" height="40" class="rounded mx-auto d-block float-start" alt="LOGO">
+      </div>
+    </div>
+  </div>
+    <br><br>
   <div class="container">
     <div class="row">
       <div class="col"> 
-        <img src="{{asset('/image/histori.jpg')}}" width="350" height="500" class="rounded mx-auto d-block" alt="LOGO">
+        <img src="{{asset('/image/spa2.jpg')}}" width="350" height="500" class="rounded mx-auto d-block" alt="LOGO">
       </div>
       <div class="col">
         <br><br><br><br><br><br>
         <h2>  
-          History 
+          Spa and Massage
         </h2>
-        <p >  
-          SalahFour hotel didirikan pada tanggal 15 Agustus 2023. 
-        </p>  
-        <p >  
-          SalahFour hotel sudah beroperasi selama 3 tahun   
-        </p> 
-        <p >  
-          dan mendapatkan penghargaan sebagai hotel    
-        </p> 
-        <p>  
-          terbaik se - Jawa Tengah tahun 2025.        
+        <p >  Manfaat spa tidak hanya untuk relaksasi tubuh dan pikiran,</p> 
+        <p> tetapi juga baik untuk kesehatan. </p>
+        <p> Ada beberapa manfaat spa bagi kesehatan yang bisa Anda rasakan,</p>
+        <p>mulai dari membersihkan dan mencerahkan kulit, mengurangi nyeri sendi</p> 
+        <p> dan otot, hingga melancarkan peredaran darah.      
         </p> 
       </div>
     </div>
@@ -53,17 +43,20 @@
         <div class="col"> 
           <br><br><br><br><br><br>
           <h2 class="text-end"> 
-            Location  
+            Paket Spa and Massage 
           </h2> <br>
           <p class="text-end">  
-            Lokasi SalahFour Hotel berada di Kota Salatiga. 
+            Paket 120 menit : Rp200.000
           </p>  
           <p class="text-end">  
-            SalahFour Hotel beralamat di Jalan Jetis Rekesan 02.    
+            Paket 180 menit : Rp250.000   
+          </p> 
+          <p class="text-end">  
+            Paket 240 menit : Rp350.000   
           </p> 
         </div>
         <div class="col">
-            <img src="{{asset('/image/lokasi.png')}}" width="350" height="450" class="rounded mx-auto d-block border border-5" alt="LOGO">
+            <img src="{{asset('/image/spa1.jpg')}}" width="350" height="450" class="rounded mx-auto d-block border border-5" alt="LOGO">
         </div>
       </div>
     </div>
