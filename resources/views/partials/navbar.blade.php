@@ -36,7 +36,8 @@
                     <a class="nav-link text-warning" href="#">Restaurant and Bars</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-warning">Gallery</a>
+                   <a class="nav-link text-warning" href=/our-team >Our Team</a>
+
                 </li>
             </ul>
         </div>
