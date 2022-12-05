@@ -1,0 +1,45 @@
+.juragan .btn-warning{    
+    height: 45px;
+    width: 210px;
+    background: gold;        
+    box-shadow: 0 0 8px silver;         
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #fff;  
+}
+.juragan .btn-warning:hover{   
+    -webkit-transform: scale(1.1);  
+    background: orange;           
+}  
+.jelata .btn-warning{     
+    height: 45px;
+    width: 210px;
+    background: gold;        
+    box-shadow: 0 0 8px silver;         
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #fff;  
+}
+.jelata .btn-warning:hover{   
+    -webkit-transform: scale(1.1);  
+    background: orange;           
+} 
+.ningrat .btn-warning{   
+    height: 45px; 
+    width: 210px;
+    background: gold;        
+    box-shadow: 0 0 8px silver;          
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #fff;  
+}
+.ningrat .btn-warning:hover{  
+    -webkit-transform: scale(1.1);    
+    background: orange;           
+} 
+.room .h5 {   
+    color: black;      
+} 
+.room .h4 .p{      
+    color: lightgoldenrodyellow;                       
+}  
