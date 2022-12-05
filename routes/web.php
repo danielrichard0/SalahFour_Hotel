@@ -31,4 +31,17 @@ Route::get('/about-us', function()
     return view('about_us');
 });
 
+Route::get('/spa-spa', function()
+{
+    return view('spa_spa');
+});
 
+Route::get('/resto', function()
+{
+    return view('resto');
+});
+
+Route::get('/our-team', function()
+{
+    return view('our_team');
+});
