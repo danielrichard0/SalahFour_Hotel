@@ -44,7 +44,7 @@
           </div>
           <div class="spa">  
           <div class="d-grid gap-2 col-6 mx-auto">
-            <center><button class="btn btn-primary btn-warning btn-lg" type="button"><h6>See More Details</h6></button></center>          
+            <center><a class="btn btn-primary btn-warning btn-lg" href=/spa-spa type="button"><h6>See More Details</h6></a></center>          
           </div>  
         </div>
       </div>
@@ -65,8 +65,8 @@
           </div> 
           <div class="resto"> 
           <div class="d-grid gap-2 col-6 mx-auto">  
-            <center><button class="btn btn-primary btn-warning btn-lg" type="button"><h6>See More Details</h6></button></center>    
+            <center><a class="btn btn-primary btn-warning btn-lg" href=/resto type="button"><h6>See More Details</h6></a></center>    
           </div> 
         </div> 
       </div>
-    </section>        
+    </section>  
